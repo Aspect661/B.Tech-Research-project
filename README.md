@@ -11,3 +11,6 @@ The system is designed as a two-stage model. The first stage addresses the autho
 However, several challenges emerged in the real-time implementation of this model. One of the primary issues is the time-varying nature of PPG signals, which the model does not account for, leading to false positives over time. This was particularly evident during video analysis. For this project, I collected 10 minutes of PPG data from 7 different subjects in a controlled lab environment. However, unauthorized users were correctly identified for the most part. 
 
 The hardware implementation involved integrating a Raspberry Pi 3B+, a custom ADC board, and a PPG sensor, demonstrating the feasibility of real-time deployment of the CA system. Despite the challenges, this project lays the groundwork for future improvements in continuous authentication systems, emphasizing the importance of addressing time-varying signals for enhanced accuracy.
+
+
+The ipynb file which was responsible for testing of the model on benchmark dataset is uploaded. The final .py code which is finally implemented in the RPI 3B+ is also uploaded. The .jpeg shows a snap of the model in action (Sahana was the name of my project partner)
